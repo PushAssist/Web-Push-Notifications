@@ -1,5 +1,5 @@
 {
-    "name": "pushassist/web-push-notification",
+    "name": "pushassist/web-push-notifications",
     "type": "library",
     "description": "Web Push Notifications for websites",
     "keywords": ["push notifications","web push notifications"],
