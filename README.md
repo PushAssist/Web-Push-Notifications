@@ -3,6 +3,21 @@ Push Notification Delivery & Analytics for Websites and Mobile
 
 > Web Push Notifications is a PHP Library to quickly integrate and send push notifications with PushAssist REST API. Setup is easy just create a [Free Account](https://pushassist.com/pricing-plans/), verify your email address and login to your PushAssist Control Panel to get the API & Secret Keys.
 
+
+## Initialization
+
+Simply require and initialize the `PushAssist` class like:
+
+	require_once 'PushAssist.php';
+    
+## Composer Installation
+
+To install PushAssist Class, simply:   
+
+	$ composer require PushAssist/Web-Push-Notifications 
+
+   
+
 ## Sending Out Notifications
 
 ```php
