@@ -77,6 +77,42 @@ $segment_array = array("segment" => array(
 $push_notification->pushassist_create_segments($segment_array);
 ```
 
+## Get Account Details
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_account_details();
+```
+
+## Get Dashboard Details
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_dashboard_details();
+```
+
+## Get Notification History
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_notification_history();
+```
+
+## Get Notification Details By Id
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_notification_details_by_id(ID);
+```
+
  
 Feel free to integrate web-push-notification by PushAssist into your favorite PHP Framework. If you need any assistance just let us know.
 
