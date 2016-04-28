@@ -39,6 +39,30 @@ $notification_array = array("notification" => array(
 
 $push_notification->pushassist_send_notification($notification_array)
 ```
+   
+
+## Sending Out Campaigns
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+
+$campaign_array = array("campaign" => array(									
+						    "title" => 'YOUR CAMPAIGN TITLE',
+						    "message" => 'YOUR CAMPAIGN TITLE',
+						    "redirect_url" => 'URL TO REDIRECT IF MESSAGE IS CLICKED',
+							"timezone" => 'TIME ZONE FORMAT(Y-M-D) 24 HOUR FORMAT',
+						    "image" => 'MESSAGE IMAGE FULL PATH'),
+                            //UTM is optional Keep it empty if you are not passing utm_params.
+						    "utm_params" => array("utm_source" => $utm_source,	
+							"utm_medium" => $utm_medium,
+							"utm_campaign" => $utm_campaign),
+                            //Segments is optional Campaign send only for those who subscribers by this  segment.
+						    "segments" => ('Sports', 'Hockey');	
+						);
+
+$push_notification->pushassist_send_notification($campaign_array)
+```
 
  
 Feel free to integrate web-push-notification by PushAssist into your favorite PHP Framework. If you need any assistance just let us know.
