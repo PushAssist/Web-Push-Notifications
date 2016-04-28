@@ -64,6 +64,19 @@ $campaign_array = array("campaign" => array(
 $push_notification->pushassist_create_campaigns($campaign_array)
 ```
 
+## Add Segment
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+
+$segment_array = array("segment" => array(
+								"segment_name" => 'YOUR SEGMENT NAME')
+							);
+							
+$push_notification->pushassist_create_segments($segment_array);
+```
+
  
 Feel free to integrate web-push-notification by PushAssist into your favorite PHP Framework. If you need any assistance just let us know.
 
