@@ -61,7 +61,7 @@ $campaign_array = array("campaign" => array(
 						    "segments" => ('Sports', 'Hockey');	
 						);
 
-$push_notification->pushassist_send_notification($campaign_array)
+$push_notification->pushassist_create_campaigns($campaign_array)
 ```
 
  
