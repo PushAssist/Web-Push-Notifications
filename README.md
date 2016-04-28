@@ -113,6 +113,96 @@ $push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
 $push_notification->pushassist_notification_details_by_id(ID);
 ```
 
+## Get Notification Details By Account Name
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_notification_details_by_subdomain('ACCOUNT NAME');
+```
+
+## Get Campaign History 
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_campaigns_history();
+```
+
+## Get Campaign Details By Id 
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_campaigns_details_by_id(ID);
+```
+
+## Get Campaign Details By Account Name
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_campaigns_details_by_subdomain('ACCOUNT NAME');
+```
+
+## Get Segment Details
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_segment_details();
+```
+
+## Get Segment Details By Id
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_segment_details_by_id(ID);
+```
+
+## Get Segment Details By Name
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_segment_details_by_name('SEGMENT NAME');
+```
+
+## Get Segment Counts
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_segment_count();
+```
+
+## Get Subscribers Details
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_subscribers_details();
+```
+
+## Get Subscribers Details By Account Name
+
+```php
+// Create an object
+$push_notification = new PushAssist('YOUR API KEY', 'YOUR SECRET KEY');
+							
+$push_notification->pushassist_subscribers_details_by_subdomain('ACCOUNT NAME');
+```
+
  
 Feel free to integrate web-push-notification by PushAssist into your favorite PHP Framework. If you need any assistance just let us know.
 
