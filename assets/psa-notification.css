@@ -1879,7 +1879,7 @@ body .pushassist_overlay {background-color: rgba(0, 0, 0, 0.8) !important; posit
 
 	.pushassist_notification7.top_left, .pushassist_notification7.top_right, .pushassist_notification7.top_center, .pushassist_notification7.bottom_left, .pushassist_notification7.bottom_right, .pushassist_notification7.bottom_center {top: inherit !important; bottom: 0px !important; left: 3.5% !important;}
 
-	.pushassist_notification8.top_left, .pushassist_notification8.top_right, .pushassist_notification8.top_center, .pushassist_notification8.bottom_left, .pushassist_notification8.bottom_right, .pushassist_notification8.bottom_center {top: inherit !important; bottom: 0px !important; left: 3.7% !important;}
+	.pushassist_notification8.top_left, .pushassist_notification8.top_right, .pushassist_notification8.top_center, .pushassist_notification8.bottom_left, .pushassist_notification8.bottom_right, .pushassist_notification8.bottom_center {top: inherit !important; bottom: 0px !important; left: 3.7% !important; height: 102px !important;}
 
 	.pushassist_notification11.top_left, .pushassist_notification11.top_right, .pushassist_notification11.top_center, .pushassist_notification11.bottom_left, .pushassist_notification11.bottom_right, .pushassist_notification11.bottom_center {top: inherit !important; bottom: 0% !important; left: 11% !important;}
 
