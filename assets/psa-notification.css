@@ -569,7 +569,7 @@ body .pushassist_overlay {background-color: rgba(0, 0, 0, 0.8) !important; posit
 .pushassist_notification_17.bottom_right { bottom: 10px!important; right: 60px!important; }
 .pushassist_notification_17.bottom_center { bottom: 10px!important; left: 36.6%!important; }
 .pushassist_notification_17.middle_center { top: 37.5%!important; left: 36.6%!important; }
-
+.psa_fb_login { padding: 8px 15px; background-color: #4267b2; color: #fff; font-size: 14px; border: 0px; border-radius: 5px; cursor: pointer; }
 
 /**************** Responsive Style ****************/
 @media (max-width: 1366px) {
